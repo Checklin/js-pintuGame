@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拼图小游戏</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="message">
+    <input type="search" id="diff" list="diffList" placeholder="难度n*n(n>=3)" value="3">
+    <datalist id="diffList">
+        <option value="3"></option>
+        <option value="4"></option>
+        <option value="5"></option>
+        <option value="6"></option>
+        <option value="7"></option>
+        <option value="8"></option>
+        <option value="9"></option>
+        <option value="10"></option>
+    </datalist>
+    <br>
+    <button type="button" id="ok">确 定</button>
+    <button type="button" id="startgame">开始游戏吧~</button>
+    <button type="button" id="changeimg">换一张~</button>
+    <button type="button" id="tishi">提示一下咯~</button>
+    <span>已走了 <span id="step">0</span> 步</span>
+</div>
+<div id="tishitu"></div>
+<div id="gamearea"></div>
+<script src="js/main1.js"></script>
+</body>
+</html>

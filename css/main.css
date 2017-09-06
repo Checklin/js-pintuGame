@@ -1,0 +1,10 @@
+html,body,div,a,p,img,span,ul,li,canvas,input{margin:0;padding:0;}
+body{background:black;}
+#gamearea{border:1px solid white;margin-left:500px;position:relative;}
+.message{width:200px;position:absolute;top:140px;left:140px;}
+button,input,.message>span{width:100%;outline:none;color:white;background:black;padding:5px;border-radius:5px;margin:10px 0 0 0;border:1px solid white;}
+button{cursor:pointer;}
+button:active{color:black;background:white;border-color:black;}
+#tishitu{width:600px;height:600px;position:absolute;top:1px;left:501px;z-index:1;display:none;}
+.message>span{display:inline-block;text-align:center;width:188px;}
+.message>span>span{color:red;}
